@@ -12,8 +12,8 @@ app.get("/", (req, res) => {
 });
 
 // chaves das APIs (depois vamos colocar no Render como variáveis seguras)
-const YOUTUBE_KEY = "SUA_KEY_YOUTUBE";
-const NEWS_KEY = "SUA_KEY_NEWS";
+const YOUTUBE_KEY = "AIzaSyAJdgF5nfWE6xOsleHw7wIlL48HZowJOMM";
+const NEWS_KEY = "61e88c37873c438b85bbdaca81d10cd0";
 
 async function buscarVideos(tema) {
   try {
